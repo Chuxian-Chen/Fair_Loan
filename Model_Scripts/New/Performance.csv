@@ -1,0 +1,15 @@
+Algorithm,Strategy,Accuracy,Precision,Recall,F1 Score,SPD (Bias)
+Logistic Regression,Baseline,0.8906,0.7584,0.7455,0.7519,0.0086
+Logistic Regression,Fairness-Aware,0.8921,0.7721,0.73,0.7504,0.0085
+Decision Tree,Baseline,0.9125,0.8273,0.7665,0.7957,0.0065
+Decision Tree,Fairness-Aware,0.913,0.8849,0.6995,0.7813,0.004
+EBM,Baseline,0.9088,0.8317,0.739,0.7826,0.0126
+EBM,Fairness-Aware,0.9096,0.8445,0.7275,0.7816,0.0077
+GAM,Baseline,0.8233,0.8087,0.2685,0.4032,0.0022
+GAM,Fairness-Aware,0.8111,0.9011,0.1685,0.2839,0.0018
+Random Forest,Baseline,0.9269,0.8812,0.7755,0.825,0.0137
+Random Forest,Fairness-Aware,0.9291,0.8638,0.8085,0.8352,0.0114
+XGBoost,Baseline,0.9302,0.8911,0.7815,0.8327,0.0077
+XGBoost,Fairness-Aware,0.9309,0.8866,0.79,0.8355,0.0033
+TabPFN,Baseline,0.9074,0.8359,0.726,0.7771,0.0109
+TabPFN,Fairness-Aware,0.9086,0.8358,0.733,0.781,0.0008
