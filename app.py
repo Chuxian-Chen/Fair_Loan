@@ -314,7 +314,7 @@ with tab3:
         with st.form("applicant_form"):
             edu = st.selectbox("Education Level (Sensitive Attribute)",
                                ["Doctorate", "Master", "Bachelor", "High School"], index=2)
-            income = st.number_input("Annual Income (USD)", value=65000, step=5000)
+            income = st.number_input("Annual Income (USD)", value=95000, step=5000)
             loan_amnt = st.number_input("Requested Loan Amount (USD)", value=15000, step=1000)
 
             credit_score = st.slider("Credit Score (FICO)", min_value=300, max_value=850, value=720, step=10)
